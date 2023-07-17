@@ -47,7 +47,7 @@ Join [Discord](https://discord.gg/P9gGZaXWGR) for any Assist/Issues
 ```
 
 
-5. After executing the Third cell, make another cell and run the following code:
+6. After executing the Third cell, make another cell and run the following code:
 
 ```python
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/4bit/vicuna-13b-GPTQ-4bit-128g/raw/main/config.json -d /content/text-generation-webui/models/vicuna-13b-GPTQ-4bit-128g -o config.json
@@ -58,7 +58,7 @@ Join [Discord](https://discord.gg/P9gGZaXWGR) for any Assist/Issues
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/4bit/vicuna-13b-GPTQ-4bit-128g/resolve/main/vicuna-13b-4bit-128g.safetensors -d /content/text-generation-webui/models/vicuna-13b-GPTQ-4bit-128g -o vicuna-13b-4bit-128g.safetensors
 ```
 
-5. After executing the Fourth cell, make another cell and run the following code to Host a Gradio WebUI:
+7. After executing the Fourth cell, make another cell and run the following code to Host a Gradio WebUI:
 
 ```python
 %cd /content/text-generation-webui
